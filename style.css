@@ -11,7 +11,7 @@
 
 .row {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .object {
@@ -31,4 +31,12 @@ span.discount {
 
 .object:nth-child(2) span.discount {
   background: red;
+}
+
+.heart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 15px;
+  color:transparent;
 }
