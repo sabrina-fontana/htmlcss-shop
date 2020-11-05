@@ -6,8 +6,10 @@
 
 .container {
   width: 1000px;
+  margin: 0 auto;
 }
 
 .row {
-  background: red;
+  text-align: center;
+  margin-top: 20px;
 }
