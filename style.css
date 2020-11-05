@@ -13,3 +13,14 @@
   text-align: center;
   margin-top: 20px;
 }
+
+.object {
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
