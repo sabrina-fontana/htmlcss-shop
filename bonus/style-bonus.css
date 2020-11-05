@@ -41,11 +41,11 @@ header, footer {
 }
 
 span.discount {
-  background-color: green;
+  background-color: #6bba73;
 }
 
 .object:nth-child(2) span.discount {
-  background: red;
+  background: #ea705d;
 }
 
 .over-object {
