@@ -5,14 +5,17 @@
 }
 
 header {
-  font-family: 'Dancing Script', cursive;
   font-size: 70px;
-  width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1;
+}
+
+header, footer {
+  font-family: 'Dancing Script', cursive;
+  width: 100%;
   text-align: center;
   background: rgba(227, 192, 186, 0.5);
+  z-index: 1;
 }
 
 .container {
@@ -57,4 +60,10 @@ span.discount {
 
 .object:hover .heart {
   color: red;
+}
+
+footer {
+  font-size: 30px;
+  position: fixed;
+  bottom: 0;
 }
